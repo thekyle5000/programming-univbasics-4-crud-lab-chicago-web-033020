@@ -13,11 +13,15 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
+  fun = ["movies", "running", "reading", "cooking"]
   
+  fun.shift("baseball")
 end
 
 def remove_element_from_end_of_array(array)
+  fun = ["movies", "running", "reading", "cooking"]
   
+  fun.pop()
 end
 
 def remove_element_from_start_of_array(array)
